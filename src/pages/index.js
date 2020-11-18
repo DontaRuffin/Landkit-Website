@@ -3,6 +3,7 @@ import React from "react"
 import Layout from "../components/layout"
 
 
+
 export default function Home() {
   return <Layout>
                 <p>Land Kit leverages the power of computation and algorithmic design for landscape.</p>
@@ -21,5 +22,6 @@ export default function Home() {
                 <h2>Topo kit</h2>
                 <image></image>
                 <p>Paving Kit is a tool set for making paving design easier. By defining areas, patterns, and color rules, Paving Kit will help with designing, drafting, and modeling your paving for CAD or rendering. </p> 
+              
         </Layout>
         }
