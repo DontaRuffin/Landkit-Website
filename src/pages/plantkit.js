@@ -1,14 +1,14 @@
-/*import React from "react"
+import React from "react"
 import Layout from "../components/layout"
-import "../styles/index.css"
+import "../components/index.css"
 
 
 
 export default function Plantkit() {
   return    <Layout>
-              <div classname={"plantTheme"}>
-              <h2>PavingKit</h2>
+              
+              <h1 id={'plantTheme'}>Plant kit </h1>
               <p>Land Kit leverages the power of computation and algorithmic design for landscape.</p>
-              </div>
+              
            </Layout>
-}*/
+}

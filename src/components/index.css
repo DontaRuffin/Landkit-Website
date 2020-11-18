@@ -13,15 +13,17 @@ html {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
-  #plantTheme{
+  /*#plantTheme{
     background-color: #00342C ;
-  }
+  }*/
   article,
   aside,
   details,
   figcaption,
   figure,
-  footer,
+  footer{
+    color:white;
+  },
   header,
   main,
   menu,
@@ -245,6 +247,19 @@ html {
     font-size: 2.25rem;
     line-height: 1.1;
   }
+  #plantTheme {
+    color:#00E7CA;
+  }
+  #paveTheme {
+    color:#D5CCE5;
+  }
+  #topoTheme{
+    color:#FFAF00;
+  }
+  #topoPar{
+    color:#FFAF00;
+  }
+  
   h2 {
     margin-left: 0;
     margin-right: 0;
@@ -394,6 +409,7 @@ html {
     padding-top: 0;
     margin-bottom: 1.45rem;
   }
+
   figure {
     margin-left: 0;
     margin-right: 0;
