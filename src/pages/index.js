@@ -23,7 +23,7 @@ export default function Home() {
               
                 <h2>Topo kit</h2>
                 <image></image>
-                <p>Paving Kit is a tool set for making paving design easier. By defining areas, patterns, and color rules, Paving Kit will help with designing, drafting, and modeling your paving for CAD or rendering. </p> 
+                <p>Topo Kit will change topography design forever. By easily creating and modifying topographic features in the landscape that help to define topography, you can avoid the sticky problem of relying on elevated contours to create and revise models. </p> 
                 </div>
         </Layout>
         }
