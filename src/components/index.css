@@ -1,7 +1,6 @@
 /* Reset provided by https://github.com/gatsbyjs/gatsby-starter-blog via MIT license */
 
 html {
-    background-color: #272727;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
   }
@@ -10,6 +9,7 @@ html {
     font-family: Helvetica Neue, Roboto, Tahoma, Segoe UI, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, sans-serif;
     color: hsla(0, 1%, 63%, 0.8);
+    background-color: #272727;
     margin: 0;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
