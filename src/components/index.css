@@ -35,10 +35,13 @@ html {
     justify-content: center;
   },
   menu,
+  nav li{
+    display: inline-block;
+    justify-content: space-around;
+  },
   nav{
     text-decoration: none;
     list-style-type: none;
-    justify-content: right;
   },
   section,
   summary {
@@ -263,7 +266,7 @@ html {
     margin-right: 0;
     margin-top: 0;
     padding-bottom: 0;
-    padding-left: 0;
+    padding-left: 25%;
     padding-right: 2cm;
     padding-top: 0;
     margin-bottom: 1.45rem;
@@ -561,7 +564,10 @@ html {
     padding-left: 0;
   }
   ul li {
-    padding-left: 0;
+    padding: 10px;
+    display: inline-block;
+    justify-content: space-around;
+    text-align: center;
   }
   li > ol {
     margin-left: 1.45rem;
@@ -666,3 +672,4 @@ html {
       font-size: 100%;
     }
   }
+  

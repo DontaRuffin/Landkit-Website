@@ -1,10 +1,11 @@
 import React from "react"
 import { Link } from 'gatsby'
 
-
+/*test menu */
 
 const Menu = () => {
-  return   <nav>
+  return   <div class="topnav" id="mytopnav">
+              <nav>
                 <ul>
                   <li><Link to="/">Home</Link></li>
                   <li><Link to="/about/">About</Link></li>
@@ -15,5 +16,6 @@ const Menu = () => {
                   <li><Link to="/checkout/">Checkout</Link></li>
                 </ul>
             </nav>
+          </div>
 } 
 export default Menu

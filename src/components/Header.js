@@ -4,9 +4,14 @@ import "../components/index.css"
 
 
 
+import { Navbar, Nav, Container, NavDropdown } from 'react-bootstrap'
+//import Container from './container'
+
+
+
 const Header = () => {
     return (
-        <div>
+    <div>
            <h3><b>+</b> Land Kit</h3>
                 <nav>
                     <ul>
@@ -19,7 +24,7 @@ const Header = () => {
                     <li><Link to="/checkout/">Checkout</Link></li>
                     </ul>
                 </nav>
-        </div>
+  </div>
     )
 }
 export default Header 
