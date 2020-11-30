@@ -54,6 +54,7 @@ const Nav = styled.nav`
 const link = styled.link`
   color: #000;
   display: flex;
+  justify-content: space-around;
   align-items: center;
   text-decoration: none;
   padding: 0 1rem;
@@ -62,7 +63,7 @@ const link = styled.link`
 
 const NavMenu = styled.div`
   display: flex;
-  padding: 20px;
+  padding-top:20px;
 
   @media screen and (max-width: 600px) {
     position: fixed;

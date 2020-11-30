@@ -375,6 +375,7 @@ html {
     margin-bottom: 1.45rem;
   }
   ul {
+    display: flex;
     margin-left: 1.45rem;
     margin-right: 0;
     margin-top: 0;
@@ -386,6 +387,7 @@ html {
     list-style-position: outside;
     list-style-image: none;
     list-style-type: none;
+    justify-content: space-between;
   }
   ol {
     margin-left: 1.45rem;
@@ -562,7 +564,7 @@ html {
   ul li {
     padding: 10px;
     display: inline-block;
-    justify-content: space-around;
+    justify-content: space-between;
     text-align: center;
   }
   li > ol {
