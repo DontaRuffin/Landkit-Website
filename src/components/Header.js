@@ -15,13 +15,12 @@ const Header = () => {
            <h3><b>+</b> Land Kit</h3>
                 <nav>
                     <ul>
-                    <li><Link to="/">Home</Link></li>
-                    <li><Link to="/about/">About</Link></li>
-                    <li><Link to="/pavingkit/">Paving Kit</Link></li>
-                    <li><Link to="/plantkit/">Plant Kit</Link></li>
-                    <li><Link to="/topokit">Topo Kit</Link></li>
-                    <li><Link to="/learning/">Learning</Link></li>
-                    <li><Link to="/checkout/">Checkout</Link></li>
+                    <li><Link to="/">HOME</Link></li>
+                    <li><Link to="/pavingkit/">PAVING</Link></li>
+                    <li><Link to="/plantkit/">PLANT</Link></li>
+                    <li><Link to="/topokit">TOPO</Link></li>
+                    <li><Link to="/learning/">LEARN</Link></li>
+                    <li><Link to="/checkout/">STORE</Link></li>
                     </ul>
                 </nav>
   </div>
