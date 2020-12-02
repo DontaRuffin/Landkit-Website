@@ -21,13 +21,11 @@ export default function Home() {
                   
                   <div class={'column'}>
                     <h2>Plant Kit</h2>
-                    <image></image>
                     <p>Plant Kit is a powerful platform to make planting design easier and more site-specific. By defining environments, areas, plants, and rules, Plant Kit will help with keep track of the complexity, helping to layout and visualize your planting design for CAD, Revit, or rendering in Rhino, Lumion, or Enscape.</p>
                   </div>
                   
                   <div class={'column'}>
                     <h2>Topo Kit</h2>
-                    <image></image>
                     <p>Topo Kit will change topography design forever. By easily creating and modifying topographic features in the landscape that help to define topography, you can avoid the sticky problem of relying on elevated contours to create and revise models. </p> 
                   </div>
               </div>
