@@ -5,7 +5,7 @@ import { Link } from "gatsby";
 import styled from "styled-components";
 import { menuData } from "../data/MenuData";
 import { Twirl as Hamburger } from "hamburger-react";
-import "../components/index.css"
+/*import "../components/index.css"*/
 
 const HeaderTwo = () => {
   const [isOpen, setOpen] = useState(false);
@@ -54,8 +54,8 @@ const Nav = styled.nav`
 const link = styled.link`
   color: #000;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: space-between;
+  align-items: space-between;
   text-decoration: none;
   padding: 0 1rem;
   cursor: pointer;

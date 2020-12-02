@@ -261,7 +261,7 @@ html {
     margin-right: 0;
     margin-top: 0;
     padding-bottom: 0;
-    padding-left: 25%;
+    padding-left: 0;
     padding-right: 2cm;
     padding-top: 0;
     margin-bottom: 1.45rem;
@@ -668,6 +668,24 @@ html {
   @media only screen and (max-width: 480px) {
     html {
       font-size: 100%;
+    }
+  }
+
+  .column {
+    float: left;
+    width: 33.33%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
     }
   }
   
