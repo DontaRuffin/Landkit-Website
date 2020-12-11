@@ -1,4 +1,5 @@
 import React from "react"
+import ReactDom from 'react'
 import "../components/index.css"
 import Footer from "../components/footer"
 /*import Header from "../components/Header"*/

@@ -684,6 +684,7 @@ html {
 
   .container {
     display: flex;
+    flex-flow: row wrap;
   }
   
   /* Clear floats after the columns */
@@ -691,9 +692,14 @@ html {
     align-content: space-between;
   }
 
-  @media screen and (max-width: 600px) {
+  .column{
+    width: calc(100% / 3);
+  }
+  
+@media screen and (max-width: 600px) {
     .column {
       width: 100%;
     }
   }
+
   
