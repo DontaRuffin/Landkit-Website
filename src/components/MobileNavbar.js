@@ -3,17 +3,22 @@ import "../styles/Navbar_styles.css";
 import { Link } from "gatsby"
 import { Twirl as Hamburger } from "hamburger-react";
 
+
 const MobileNavbar = () => {
   const [mobileNavIsOpen, setMobileNavIsOpen] = useState(false);
 
+ 
   // Toggle the Mobile Nav open / close
   const handleMobileNavClick = () => {
-    mobileNavIsOpen ? setMobileNavIsOpen(false) : setMobileNavIsOpen(true);
+    // mobileNavIsOpen ? setMobileNavIsOpen(false) : setMobileNavIsOpen(true);
+    setMobileNavIsOpen(!mobileNavIsOpen);
   };
 
-  window.addEventListener("resize", () => {
-    window.innerWidth > 600 && setMobileNavIsOpen(false);
-  });
+  if(typeof window !== `undefined`){ // this condition make the trick
+    window.addEventListener(`resize`, () => {
+      window.innerWidth > 600 && setMobileNavIsOpen(false);
+    });
+  }
 
   return (
     <nav className="mobileNav_container">
